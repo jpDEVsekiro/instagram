@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(240,240,240);
+    display: flex;
+    justify-content: center;
+}
+.insta{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: start;
+    width: 60%;
+    height: 100%;
+}
+.Instagramphone{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+}
+
+.celular img{
+    height: 50rem;
+}
+.Instagramlogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid gray;
+}
+.group:nth-child(1){
+    min-height: 19px;
+    margin: 19px;
+}
+.instagramlogo{
+    height: 3rem;
+}
+.profilefoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.perfil img{
+    height: 50rem;
+}
+.instagramlogin2{
+    margin-top: 14px;
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+.instagramlogout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+.account{
+    color: rgb(160,160,160);
+}
+.link-blue{
+    color: #0095f6;
+}
+.gettheapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.dowload{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 1rem;
+}
+.appdowload{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+.appdowload:nth-child(1){
+    background-image: url('img/disponivel-google-play-badge.png');
+}
+
+.getapp{
+    font-size: 16px;
+}
+
+@media (max-width:1024px){
+    .Instagramphone{
+        width: 90%;
+    }
+}
+@media (max-width:650px){
+    .Instagramphone{
+        width: 90%;
+    }
+    .Instagramphone{
+        display: none;
+    
+    }
+    .Instagramlogin{
+        width: 100%;
+    }
+}
